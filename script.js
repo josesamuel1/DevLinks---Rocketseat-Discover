@@ -12,11 +12,11 @@ function toggleMode() {
 
     if (html.classList.contains("light")) {
         // Caso esteja no light mode
-        img.setAttribute("src", "./assets/avatar-light.png")
+        img.setAttribute("src", "./assets/avatar-light.jpg")
         img.setAttribute("alt", "Esse sou eu!")
     } else {
         // Caso esteja no dark mode
-        img.setAttribute("src", "./assets/avatar.png")
+        img.setAttribute("src", "./assets/avatar.jpg")
         img.setAttribute("alt", "Esse sou eu também!")
     }
 }
