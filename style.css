@@ -101,7 +101,6 @@ body * {
     border: 1px solid var(--stroke-color);
     -webkit-background-filter: blur(4px);
     border-radius: 9999px;
-
 }
 
 .light #switch button {
@@ -109,6 +108,7 @@ body * {
 }
 
 #switch button:hover {
+    transition: ease-out .25s;
     outline: 8px solid var(--highlight-color);
 }
 
